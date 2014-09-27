@@ -1,0 +1,5 @@
+{
+  "mysql": {"server_root_password":"Password1", "server_debian_password":"Password2", "server_repl_password":"Password3"},
+  "php_chef": {"db_password":"AnotherPassw2ord"},
+  "run_list": [ "recipe[apt]", "recipe[php_chef]" ]
+}
