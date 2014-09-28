@@ -65,7 +65,7 @@ mysql_database 'add welcome message' do
   action :query
 end
 
-template "/var/www/newtest.php" do
+template "/var/www/test.php" do
   source  "test.php.erb"
   action :create
 end
